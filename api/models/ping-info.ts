@@ -24,7 +24,7 @@ export interface PingInfo {
      * @type {string}
      * @memberof PingInfo
      */
-    ip?: string;
+    containerIp?: string;
 
     /**
      * @type {Date}
