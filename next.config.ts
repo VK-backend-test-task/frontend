@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  serverRuntimeConfig: { apiHost: process.env.API_HOST },
 };
 
 export default nextConfig;
